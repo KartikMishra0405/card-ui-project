@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cham:wght@100..900&display=swap" rel="stylesheet">
+    <title>Exercise-3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Noto Sans Cham", sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        body{
+            background-color: aquamarine;
+        }
+
+        .main-box {
+            border: 2px solid rgba(160, 153, 153, 0.812);
+            border-radius: 10px;
+            height: auto;
+            width: 25vw;
+            margin: auto;
+            overflow: hidden auto;
+            background-color: aliceblue;
+        }
+
+        .title {
+            padding: 3px 15px;
+            font-size: 20px;
+        }
+
+        .about {
+            padding: 2px 15px;
+            color: rgba(160, 153, 153, 0.812);
+        }
+
+        .read-more-button{
+            display: flex;
+            justify-content:center;
+        }
+
+        img {
+            display: block;
+            height: 45%;
+            width: 95%;
+            border-radius: 10px;
+            margin: 10px auto;
+        }
+
+        ul li {
+            list-style: none;
+            padding: 2px 10px;
+            margin: 5px;
+            border: 1px solid rgba(160, 153, 153, 0.812);
+            border-radius: 100px;
+            color: rgba(160, 153, 153, 0.812);
+            font-size: 13px;
+        }
+
+        ul li:hover{
+            background-color: rgba(160, 153, 153, 0.812);
+            color:white;
+        }
+
+        ul {
+            margin-left: 20px;
+            display: flex;
+            justify-content: left;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 30px;
+            padding: 15px 20px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: rgba(20, 85, 235, 0.808);
+            background-color:rgba(160, 204, 255, 0.653) ;
+            font-size: 15px;
+            font-weight:bold;
+        }
+
+        a:hover{
+            box-shadow: 1px 3px 12px 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Card.png is a file which contains a card Image. Write html and css code to design this card -->
+    <div class="main-box">
+        <img src="nature.png" alt="Some nature image">
+        <div class="tags">
+            <ul>
+                <li>Nature</li>
+                <li>Lake</li>
+            </ul>
+        </div>
+        <div class="title">
+            <h2>Lago di Braies</h2>
+        </div>
+        <div class="about">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et consequuntur repellat quo accusamus
+                doloribus iure dolorem fugiat voluptas provident in?</p>
+        </div>
+        <div class="read-more-button">
+            <a href="#">Read More</a>
+        </div>
+    </div>
+</body>
+
+</html>
